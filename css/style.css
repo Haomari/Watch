@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Shizuru:regular");
 * {
     padding: 0;
     margin: 0;
@@ -71,6 +72,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
+    background: #091921;
+}
+
+.content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -81,7 +86,17 @@ body {
         -ms-flex-align: center;
             align-items: center;
     min-height: 100vh;
-    background: #091921;
+}
+
+.titli {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    font-family: serif;
+    margin: 50px 0px 0px;
+    color: #ff4343;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
 }
 
 .clock {
